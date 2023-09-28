@@ -24,9 +24,9 @@ enum Direction: Equatable {
     var image: NSImage {
         switch self {
         case .normal:
-            return NSImage(systemSymbolName: "scroll", accessibilityDescription: nil)!
+            return NSImage(systemSymbolName: "magicmouse.fill", accessibilityDescription: nil)!
         case .natural:
-            return NSImage(systemSymbolName: "scroll.fill", accessibilityDescription: nil)!
+            return NSImage(systemSymbolName: "magicmouse", accessibilityDescription: nil)!
         }
     }
 }
